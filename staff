@@ -1,0 +1,18 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final var programmers = 23;
+        System.out.println("programmers = " + programmers);
+        final var testers = 3;
+        System.out.println("testers = " + testers);
+        final var sap = 2;
+        System.out.println("sap = " + sap);
+        final var testers1 = programmers*testers;
+        System.out.println("testers1 = " + testers1);
+        final var sap1 =programmers*sap;
+        System.out.println("sap1 = " + sap1);
+        final var total = programmers+testers1+sap1;
+        System.out.println("total = " + total);
+    }
+}
