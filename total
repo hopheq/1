@@ -1,0 +1,12 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final var lannisters = 2834;
+        System.out.println("lannisters = " + lannisters);
+        final var saurman = 454;
+        System.out.println("saurman = " + saurman);
+        final var total = lannisters + saurman;
+        System.out.println("total = " + total);
+    }
+}
