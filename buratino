@@ -1,0 +1,12 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+        final var buratino = 5;
+        System.out.println("buratino = " + buratino);
+        final var barabas = 3;
+        System.out.println("barabas = " + barabas);
+        final var remains = buratino-barabas;
+        System.out.println("remains = " + remains);
+    }
+}
