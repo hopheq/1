@@ -1,0 +1,16 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+      int km = 10;
+        System.out.println("km = " + km);
+        double speed = 60.0;
+        System.out.println("speed = " + speed);
+        double time = km/speed;
+        System.out.println("time = " + time);
+        double coefficient = 0.85;
+        System.out.println("coefficient = " + coefficient);
+        double time2 = time*coefficient;
+        System.out.println("time2 = " + time2);
+    }
+}
