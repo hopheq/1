@@ -1,0 +1,28 @@
+package org.example;
+
+public class Untitled {
+    public static void main(String[] args) {
+      int shirt = 1000;
+        System.out.println("shirt = " + shirt);
+        int quantity = 7;
+        System.out.println("quantity = " + quantity);
+        int discount = 10;
+        System.out.println("discount = " + discount);
+        int add = discount-quantity;
+        System.out.println("add = " + add);
+        int total = shirt*quantity;
+        System.out.println("total = " + total);
+        int total2 = shirt*add;
+        System.out.println("total2 = " + total2);
+        double sale = 35.0;
+        System.out.println("sale = " + sale);
+        double sale2 = shirt*discount-100*sale;
+        System.out.println("sale2 = " + sale2);
+        double shirt1 = sale2/discount;
+        System.out.println("shirt1 = " + shirt1);
+        double economy = shirt*discount-sale2;
+        System.out.println("economy = " + economy);
+        double freebie = economy/shirt;
+        System.out.println("freebie = " + freebie);
+    }
+}
