@@ -6,7 +6,7 @@ public class Untitled {
         System.out.println("volume = " + volume);
         double percent = 70;
         System.out.println("percent = " + percent);
-        double total = volume/100*70;
+        double total = volume/100*percent;
         System.out.println("total = " + total);
     }
 }
