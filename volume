@@ -4,7 +4,7 @@ public class Untitled {
     public static void main(String[] args) {
         int volume = 500;
         System.out.println("volume = " + volume);
-        double percent = 70;
+        double percent = 70.0;
         System.out.println("percent = " + percent);
         double total = volume/100*percent;
         System.out.println("total = " + total);
